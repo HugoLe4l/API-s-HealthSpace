@@ -9,7 +9,7 @@ const PORT = 8081;
 
 app.use(express.json());
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://api-s-health-space.vercel.app'], // Permite a origem do frontend
+  origin: ['http://localhost:5173', 'https://api-s-health-space.vercel.app', 'https://health-space-node-ggao.vercel.app/'], // Permite a origem do frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true, // Para enviar cookies/tokens, se necessário
