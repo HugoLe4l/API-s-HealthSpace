@@ -205,22 +205,3 @@ router.post("/pagamento", (req, resp) => {
 })
 
 export default router
-
-/* 
-
-resp.json({
-                                        Mensagem1: `Usuario com id (${IdUsuario}) encontrado`,
-                                        Mensagem2: `Anuncio com id (${idAnuncio}) encontrado`,
-                                        UsuarioEncontrado: UsuarioEncontrado,
-                                        UsuarioDados: UsuarioDados,
-                                        resultado: AnuncioDados
-
-
-                                    })
-
-
-                                    resp.json({
-                                                        Mensagem1: "Update bem sucedido",
-                                                        Mensagem2: `Você possuia ${UsuarioDados[1]}. Pagou ${AnuncioDados[2]} e ficou com ${ContaFinal}`
-                                                    })
-*/

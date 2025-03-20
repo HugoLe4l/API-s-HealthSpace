@@ -15,6 +15,6 @@ app.use('/auth', AuthRota); // Rotas de autenticação
 app.use('/anuncio', AnuncioRota); // Rotas de autenticação
 
 
-app.listen(PORT, () => {
+/*app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
-}); 
+}); */
