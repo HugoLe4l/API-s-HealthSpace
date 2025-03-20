@@ -8,16 +8,7 @@ const app = express();
 const PORT = 8081;
 
 app.use(express.json());
-// Configuração do CORS
-const corsOptions = {
-    origin: '*', // Permite que a origem local se conecte
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Permite esses métodos
-    allowedHeaders: ['Content-Type', 'Authorization'], // Permite esses headers
-    preflightContinue: false,
-    optionsSuccessStatus: 204 // Status para a resposta de preflight
-  };
-  
-  app.use(cors(corsOptions)); // Aplica as configurações do CORS
+app.use(cors());
 
 
 app.use('/auth', AuthRota); // Rotas de autenticação
