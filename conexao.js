@@ -14,7 +14,7 @@ const railwayhost = {
   db: 'railway'
 }
 
-const sethost = localhost
+const sethost = railwayhost
 
 // Conexão com o banco
 export const connection = mysql.createConnection({
