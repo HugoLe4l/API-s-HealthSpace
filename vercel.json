@@ -5,20 +5,6 @@
         "src": "./index.js",
         "use": "@vercel/node"
       }
-    ],
-    "routes": [
-      {
-        "src": "/auth/(.*)",
-        "dest": "/auth/$1"
-      },
-      {
-        "src": "/anuncio/(.*)",
-        "dest": "/anuncio/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/$1"
-      }
     ]
   }
   
